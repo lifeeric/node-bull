@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "DEBUG=* ts-node server.ts"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.9",
+    "bull": "^4.11.3",
+    "debug": "^4.3.4",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
